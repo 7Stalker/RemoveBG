@@ -1,6 +1,6 @@
 install:
-	pip install poetry && \
-	poetry install
+	pip install Pipfile && \
+	Pipfile install
 
 start:
-	poetry run python app.py
+	Pipfile run python app.py
